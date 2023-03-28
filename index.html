@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h3 class="alert"></h3>
+
+    <div class="addition">
+        <div class="types">
+            <h3>Catagories: </h3>
+
+            <input type="checkbox" id="minus">
+            <label for="minus">Minus Also</label>
+
+            <input type="checkbox" id="into">
+            <label for="into">Multiply Also</label>
+
+            <input type="checkbox" id="subs">
+            <label for="subs">Substract Also</label>
+        </div>
+
+        <div class="calculate">
+            <span id="first-value">5 </span>
+
+            <span class="sum">+</span>
+
+            <span id="last-value">10 </span>
+
+            <span> =</span>
+
+            <input type="number" class="num" id="ans-input">
+        </div>
+
+        <input type="submit" class="submit" value="Submit Ans" id="sub-input">
+
+        <button id="next">Next ></button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
